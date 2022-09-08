@@ -1,29 +1,27 @@
 <template>
   <template-view>
-     <!-- Post Section -->
-      <section class="post-section">
+    <!-- Post Section -->
+    <section class="post-section">
+      <!-- Story Section -->
+         <story-component/>
+      <!-- Story Section Ends -->
+    </section>
+    <!-- Post Section Ends -->
 
-      </section>
-     <!-- Post Section Ends -->
-
-     <!-- Suggesstion Section -->
-     <!-- Suggesstion Section Ends -->
+    <!-- Suggesstion Section -->
+    <!-- Suggesstion Section Ends -->
   </template-view>
 </template>
 
 <script>
-import TemplateView from './TemplateView.vue'
+import TemplateView from "./TemplateView.vue";
+import StoryComponent from '@/components/StoryComponent.vue'
 export default {
-  components: { TemplateView },
-  name: 'HomeView',
-}
+  components: { TemplateView,StoryComponent },
+  name: "HomeView",
+};
 </script>
 
 <style>
-.post-section{
-  width: 500px;
-  height: 100vh;
-  background-color: red;
-  margin-left: 23%;
-}
+
 </style>
