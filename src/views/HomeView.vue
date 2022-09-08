@@ -21,6 +21,9 @@ export default {
 
 <style>
 .post-section{
-  
+  width: 500px;
+  height: 100vh;
+  background-color: red;
+  margin-left: 23%;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-white bg-white">
+  <nav class="navbar navbar-expand-lg navbar-white bg-white sticky-top">
   <div class="container">
     <div class="d-flex">
         <a class="navbar-brand" href="#">
